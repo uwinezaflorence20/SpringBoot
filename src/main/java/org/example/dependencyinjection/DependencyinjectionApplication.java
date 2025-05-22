@@ -22,9 +22,14 @@ public class DependencyinjectionApplication {
 //        mysqlDatabase.persist("Hello World");
 
         User user = context.getBean(User.class);
-        user.saveUser("Florence");
+//        user.saveUser("Florence");
+//        user.saveUser("Ronaldo");
 //        Hello hello = new Hello();
 //        hello.sayHello();
+
+
+
+        user.printSecrets();
     }
 
 }
