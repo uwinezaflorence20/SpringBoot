@@ -7,7 +7,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class DependencyinjectionApplication {
 
     public static void main(String[] args) {
+
         SpringApplication.run(DependencyinjectionApplication.class, args);
+
+//        Hello hello = new Hello();
+//        hello.sayHello();
     }
 
 }
