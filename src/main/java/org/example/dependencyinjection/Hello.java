@@ -8,3 +8,4 @@ public class Hello {
         System.out.println("Hello World");
     }
 }
+// service,controller and repository all of it manages the beans
